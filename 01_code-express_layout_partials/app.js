@@ -82,7 +82,7 @@ app.all('/raul', (request, response) => response.render('raul', raul))
 
 
 // Daniel
-app.all("/danny", (req, res) => res.render("danny"))
+app.all("/danny", (req, res) => res.render("danny", dani))
 
 
 // Fran
